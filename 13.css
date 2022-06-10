@@ -1,0 +1,28 @@
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+div#general{
+    margin:auto;
+    
+    width: 1300px;
+    height: 100px;
+    position:absolute;top: 0px; left: 0px;
+}
+
+div#header{
+    width: 1250px;
+    height: 100px;
+    background-color: rgb(43, 116, 121);
+    text-align: center; top: 100px;
+    padding: 50px;
+}
+
+div#cuerpo{
+    width: 1150px;
+    height: 570px;
+    background-color: rgba(223, 197, 197, 0.628);
+    position: absolute;left: 200px;top: 202px;
+}

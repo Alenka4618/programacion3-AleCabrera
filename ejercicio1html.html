@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title></title>
+    <style>
+        td {
+            padding: 10px;
+        }
+
+        tr {
+            border-color: rgb(222, 71, 114)202, 202);
+        }
+
+        tr:nth-child(1) {
+            border: none;
+            background-color:blue;
+            color: white;
+        }
+
+        tr:nth-child(2) {
+            background-color:aqua;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td colspan="4">Animales en peligro de extinción</td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>Cabezas</td>
+                <td>Previsión 2010</td>
+                <td>Previsión 2020</td>
+            </tr>
+            <tr>
+                <td>Ballena</td>
+                <td>6000</td>
+                <td>4000</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>Oso pardo</td>
+                <td>50</td>
+                <td bgcolor="red" colspan="2" rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>Lince</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Tigre</td>
+                <td>300</td>
+                <td colspan="2">210</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

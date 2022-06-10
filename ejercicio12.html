@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #55D4EB;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            width: 100%;
+        }
+
+        .sidebar {
+            width: 40%;
+            height: 400px;
+            background-color: #A0C263;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+            margin: 5px 5px 5px 0px;
+        }
+
+        .content-child {
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 100%;
+            margin: 5px 0px 5px 0px;
+        }
+
+        .main {
+            background-color: #31f569;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+            height: 300px;
+            margin-bottom: 5px;
+        }
+
+        .extra {
+            background-color: #898989;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+            height: 100px;
+        }
+
+        .footer {
+            background-color: #6200ff;
+            color: #FFFFFF;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p>Header</p>
+    </div>
+    <div class="content">
+        <div class="sidebar">
+            <p>Sidebar</p>
+        </div>
+        <div class="content-child">
+            <div class="main">
+                <p>Main</p>
+            </div>
+            <div class="extra">
+                <p>Extra</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+{
+    margin:  50px;
+    padding: 0px;
+
+}
+
+div#general{
+   
+  
+    width: 960px;
+    height: 1000px;
+    
+    position:absolute;top: 0px; left: 0px;
+}
+
+div#logo{
+    width: 200px;
+    height: 200px;
+    
+    border-style: dashed;
+
+}
+
+div#titulo{
+    width: 600px;
+    height: 200px;
+    position: absolute;top: 0px; left: 200px;
+   
+    border-style: dashed;
+}
+div#opcion{
+    width: 200px;
+    height: 600px;
+    position: absolute;top: 250px;left: 0px;
+   
+    border-style: dashed;
+    border-color: black;
+   
+    
+}
+
+div#texto{
+    width: 600px;
+    height: 600px;
+    position: absolute;top: 250px;left: 200px;
+ 
+    border-style: dashed;
+}
+
+div#footer{
+    width: 800px;
+    height: 150px;
+    
+    position: absolute; top: 900px;
+    
+}
